@@ -10,6 +10,8 @@ type stairsTest struct {
 var stairsTests = []stairsTest{
 	{2, 2},
 	{3, 3},
+	{1, 1},
+	{45, 1836311903},
 }
 
 func TestClimbingStairs(t *testing.T) {
