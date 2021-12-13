@@ -9,8 +9,11 @@ type houseRobberTest struct {
 
 var houseRobberTests = []houseRobberTest{
 	{[]int{1, 2, 3, 1}, 4},
+	{[]int{1, 3, 4, 3}, 6},
 	{[]int{2, 7, 9, 3, 1}, 12},
 	{[]int{1, 10, 1, 1, 10, 1}, 20},
+	{[]int{1, 10}, 10},
+	{[]int{1}, 1},
 }
 
 func TestHouseRobber(t *testing.T) {

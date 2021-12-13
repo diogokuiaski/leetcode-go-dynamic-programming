@@ -8,9 +8,11 @@ type deleteAndEarnTest struct {
 }
 
 var deleteAndEarnTests = []deleteAndEarnTest{
-	{[]int{1, 2, 3, 1}, 4},
-	{[]int{2, 7, 9, 3, 1}, 12},
-	{[]int{1, 10, 1, 1, 10, 1}, 20},
+	{[]int{3, 4, 2}, 6},
+	{[]int{2, 2, 3, 3, 3, 4}, 9},
+	{[]int{1, 10, 1, 1, 10, 1}, 24},
+	{[]int{1, 1, 1, 2, 4, 5, 5, 5, 6}, 18},
+	{[]int{8, 7, 3, 8, 1, 4, 10, 10, 10, 2}, 52},
 }
 
 func TestDeleteAndEarn(t *testing.T) {
